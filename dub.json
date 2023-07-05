@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Carlos Adriano Portes"
+	],
+	"copyright": "Copyright © 2023, Carlos Adriano Portes",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "d-001"
+}
