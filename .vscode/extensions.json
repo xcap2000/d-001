@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "ow.vscode-subword-navigation",
+        "amodio.toggle-excluded-files",
+        "oderwat.indent-rainbow",
+        "webfreak.code-d",
+        "vadimcn.vscode-lldb"
+    ]
+}
