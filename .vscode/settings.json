@@ -4,6 +4,7 @@
         "**/.vscode": true,
         "**/d-001": true,
         "**/dub.json": true,
-        "**/.gitignore": true
+        "**/.gitignore": true,
+        "**/.dub": true
     }
 }
