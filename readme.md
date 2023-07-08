@@ -15,13 +15,19 @@ $ sudo apt-get update && sudo apt-get install dmd-compiler dub
 $ dub init d-001
 ```
 
+* This will create d-001 folder.
+
 # Running the project
 
 ```bash
 $ dub run
 ```
 
-* This will create d-001 folder.
+# Executing the result application
+
+```bash
+$ ./d-001
+``` 
 
 # Links
 
