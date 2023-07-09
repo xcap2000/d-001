@@ -20,6 +20,12 @@ $ dub init d-001
 $ dub run
 ```
 
+# Adding gtk-d
+
+```bash
+dub add gtk-d
+```
+
 # Executing the result application
 
 ```bash

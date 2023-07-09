@@ -3,6 +3,9 @@
 		"Carlos Adriano Portes"
 	],
 	"copyright": "Copyright © 2023, Carlos Adriano Portes",
+	"dependencies": {
+		"gtk-d": "~>3.10.0"
+	},
 	"description": "A minimal D application.",
 	"license": "proprietary",
 	"name": "d-001"
