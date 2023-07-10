@@ -1,10 +1,11 @@
 import gtk.MainWindow;
 import gtk.Label;
 import gtk.Main;
+import std.stdio;
 
 void main(string[] args)
 {
-	Main.init(args);
+    Main.init(args);
     MainWindow win = new MainWindow("Hello World");
     win.setDefaultSize(200, 100);
     win.add(new Label("Hello World"));
