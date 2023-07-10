@@ -30,11 +30,29 @@ dub add gtk-d
 
 ```bash
 $ ./d-001
-``` 
+```
+
+# Open project on dlangide
+
+```bash
+$ sudo apt-get install libsdl2-dev
+$ dub fetch dlangide
+$ dub run --build=release dlangide
+```
+
+or 
+
+```bash
+$ git clone https://github.com/buggins/dlangide.git
+$ cd dlangide
+$ git checkout tags/v0.8.18 -b v0.8.18
+$ dub run
+```
 
 # Links
 
 ```
 https://dlang.org/
 https://dlang.org/download.html
+https://github.com/buggins/dlangide
 ```
