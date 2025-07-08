@@ -13,6 +13,12 @@
             "group": "build"
         },
         {
+            "label": "build for debugging",
+            "type": "shell",
+            "command": "dub build -a=x86_64 -b=debug -c=application",
+            "group": "build"
+        },
+        {
             "label": "run",
             "type": "dub",
             "run": true,
