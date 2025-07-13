@@ -12,6 +12,13 @@ import std.format;
 
 void main(string[] args)
 {
+    import std.stdio : writeln, readf;
+
+    // writeln("Type you name:");
+    // string name;
+    // readf!" %s"(name);
+    // writefln("Welcome %s!", name);
+
     Main.init(args);
     MainWindow win = new MainWindow("Hello World");
     auto box = new Box(GtkOrientation.VERTICAL, 0);
@@ -22,7 +29,8 @@ void main(string[] args)
     box.add(entry);
     auto button = new Button("Hello!");
     // button.addOnPressed((Button b) => label.setText("Hello " ~ entry.getText ~ "!!!"));
-    button.addOnPressed((Button b) => label.setText(format("Hello %s!!!", entry.getText())));
+    // button.addOnPressed((Button b) => label.setText(format("Hello %s!!!", entry.getText())));
+    button.addOnPressed((Button b) => label.setText("Hello %s!!!".format(entry.getText())));
     // button.addOnPressed((Button b) => label.setText(i"Hello $(entry.getText())!!!".text));
     // button.addOnPressed(delegate(Button b) {
     //     auto message = i"Hello $(entry.getText())!!!!";
