@@ -1,10 +1,11 @@
 {
     "files.exclude": {
-        "**/.git": false,
-        "**/.vscode": false,
-        "**/d-001": false,
-        "**/dub.json": false,
-        "**/.gitignore": false,
-        "**/.dub": false
+        "**/.git": true,
+        "**/.vscode": true,
+        "**/d-001": true,
+        "**/dub.json": true,
+        "**/dub.selections.json": true,
+        "**/.gitignore": true,
+        "**/.dub": true
     }
 }
