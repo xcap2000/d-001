@@ -5,6 +5,7 @@
         "amodio.toggle-excluded-files",
         "oderwat.indent-rainbow",
         "webfreak.code-d",
-        "vadimcn.vscode-lldb"
+        "vadimcn.vscode-lldb",
+        "ms-vscode.cpptools"
     ]
 }

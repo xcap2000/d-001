@@ -5,11 +5,23 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug D project (Windows)",
             "type": "code-d",
             "request": "launch",
-            "name": "Debug D project (Windows)",
             "cwd": "${workspaceFolder}",
             "program": "${workspaceFolder}\\d-001.exe",
+            "preLaunchTask": "build for debugging"
+        },
+        {
+            "name": "Debug D project (Windows/CPP)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\d-001.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "console": "internalConsole",
             "preLaunchTask": "build for debugging"
         }
     ]
