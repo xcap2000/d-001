@@ -15,13 +15,26 @@
         {
             "label": "build for debugging",
             "type": "shell",
-            "command": "dub build -a=x86_64 -b=debug -c=application",
+            "command": "dub build -a=x86_64 -b=debug -c=application -cov",
             "group": "build"
         },
         {
             "label": "run",
             "type": "dub",
             "run": true,
+            "problemMatcher": [
+                "$dmd"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "test",
+            "type": "dub",
+            "run": false,
+            "test": true,
+            "dub_args": [
+                "--coverage"
+            ],
             "problemMatcher": [
                 "$dmd"
             ],

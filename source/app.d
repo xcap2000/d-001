@@ -28,9 +28,9 @@ void main(string[] args)
     auto entry = new Entry();
     box.add(entry);
     auto button = new Button("Hello!");
-    // button.addOnPressed((Button b) => label.setText("Hello " ~ entry.getText ~ "!!!"));
+    button.addOnPressed((Button b) => label.setText("Hello " ~ entry.getText ~ "!!!"));
     // button.addOnPressed((Button b) => label.setText(format("Hello %s!!!", entry.getText())));
-    button.addOnPressed((Button b) => label.setText("Hello %s!!!".format(entry.getText())));
+    // button.addOnPressed((Button b) => label.setText("Hello %s!!!".format(entry.getText())));
     // button.addOnPressed((Button b) => label.setText(i"Hello $(entry.getText())!!!".text));
     // button.addOnPressed(delegate(Button b) {
     //     auto message = i"Hello $(entry.getText())!!!!";

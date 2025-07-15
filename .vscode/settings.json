@@ -6,6 +6,9 @@
         "**/dub.json": true,
         "**/dub.selections.json": true,
         "**/.gitignore": true,
-        "**/.dub": true
+        "**/.dub": true,
+        "**/*.lst": true,
+        "**/*.exe": true,
+        "**/*.pdb": true,
     }
 }
